@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.login-form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form form {
+  width: 300px;
+  border: 2px solid #369;
+  padding: 30px 15px;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+}
+
+.layout-left {
+  float: left;
+  width: 230px;
+  height: 100%;
+  background: #333;
+  color: #fff;
+}
+.layout-right {
+  float: left;
+  width: calc(100% - 230px);
+  height: 100%;
+  border-left: 1px solid #ddd;
+}
+
+.layout-right .top {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.layout-right .top img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+.layout-right-relative {
+  width: 100%;
+  height: calc(100% - 80px);
+  position: relative;
+  overflow: hidden;
+}
+
+.layout-right-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  padding: 10px 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+/* side bar */
+.side-bar a,
+.side-bar i {
+  color: #fff;
+}
+
+.product-sidebar .nav-item-product,
+.category-sidebar .nav-item-category,
+.employee-sidebar .nav-item-employee,
+.customer-sidebar .nav-item-customer,
+.order-sidebar .nav-item-order,
+.profile-sidebar .nav-item-profile {
+  background: #369;
+}
+
+/* Product */
+  /* Update */
+.product-update-image-item {
+  position: relative;
+  display: inline-block;
+}
+.product-update-image-icon-delete {
+  background: #fff;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  z-index: 10;
+  padding: 0px 5px;
+  font-size: 25px;
+  cursor: pointer;
+  border-left: 1px solid #333;
+  border-bottom: 1px solid #333;
+  font-weight: bold;
+}

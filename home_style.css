@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#content .item {
+  border: 1px solid #ddd;
+}
+
+#content .item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  background: #333;
+  color: #fff;
+}
