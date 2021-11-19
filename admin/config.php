@@ -10,6 +10,6 @@ if ($db->connect_errno) {
   exit();
 }
 
-define('BASE', '/B1808283_LeThiCamLinh_CT42801_BaiTapLon/');
+define('BASE', '/QuanLyDatHang/');
 
 ?>
